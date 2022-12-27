@@ -41,7 +41,7 @@ export default function Home({ propertiesForSale, propertiesForRent }) {
         <h1>Hello!</h1>
         <Banner
           purpose="rent a home"
-          title1="rental homes for everyone"
+          title1="rental homes for"
           title2="everyone"
           desc1="explore apartments,villas and homes"
           desc2="and more"
@@ -57,12 +57,12 @@ export default function Home({ propertiesForSale, propertiesForRent }) {
 
         <Banner
           purpose="buy a home"
-          title1={"find and buy own home"}
+          title1={"find and buy own"}
           title2="dream home"
           desc1={"explore from apartments"}
           desc2="villas and more"
           buttonText={"explore buying"}
-          linkName="/search/purpose=for-sale"
+          linkName="/search?purpose=for-sale"
           imageUrl={
             "https://bayut-production.s3.eu-central-1.amazonaws.com/image/110993385/6a070e8e1bae4f7d8c1429bc303d2008"
           }
