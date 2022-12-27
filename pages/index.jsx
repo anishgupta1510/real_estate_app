@@ -38,7 +38,7 @@ export default function Home({ propertiesForSale, propertiesForRent }) {
   return (
     <>
       <div>
-        <h1>Hello!</h1>
+        {/* <h1>Hello!</h1> */}
         <Banner
           purpose="rent a home"
           title1="rental homes for"
